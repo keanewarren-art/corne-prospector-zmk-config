@@ -21,9 +21,9 @@
 include:
   - board: xiao_ble//zmk
     shield: corne_prospector_dongle prospector_adapter
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
